@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(-45deg, #8bd5f0, #4295b3, #FFFFFF);
+    background-size: 200% 200%;
+    animation: gradient 30s ease infinite;
+}
+
+/*font-family: 'BankGothic Md BT', sans-serif;
+font-family: 'Bank Gothic Light', sans-serif;
+font-family: 'BankGothic', sans-serif;*/
+
+.btn:hover{
+    background-color: white;
+}
+
+
+.topnav {
+  background: #fefcea; /* old browsers */
+  background: linear-gradient(to bottom right, #7F7FD5, #86A8E7);
+  border: 1px linear-gradient(to bottom right, #86A8E7, #7F7FD5);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #4a4844;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #63625f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #39ADC9;
+  color: #4a4844;
+
+}
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8bd5f0;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
